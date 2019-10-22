@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="104dp"
+        android:text="Usuario"
+        android:textAlignment="center"
+        android:textColor="#0288D1" />
+
+    <TextView
+        android:id="@+id/txtClave"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="154dp"
+        android:text="Clave"
+        android:textAlignment="center"
+        android:textColor="#0288D1" />
+
+    <EditText
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:inputType="textPersonName"
+        android:text="Iniciar Sesión"
+        android:textColor="#185C92"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/lblUsuario"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="97dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:inputType="textPersonName"
+        android:text="Byron"
+        android:textColor="#185C92"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/lblClave"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="146dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:inputType="textPersonName"
+        android:text="1234"
+        android:textColor="#185C92"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="224dp"
+        android:onClick="btEnviar"
+        android:text="Button" />
+</RelativeLayout>
